@@ -44,6 +44,16 @@ Copy code
 OPENAI_API_KEY=your_key_here
 Then run the app:
 
+📌 Important: Run Embedding First
+Before running the chatbot, you must embed the scraped content into ChromaDB. This process converts the text into vector embeddings so the chatbot can retrieve relevant context.
+
+From the project root directory, run:
+
+bash
+Copy code
+python embed.py
+This step must be completed before launching the chatbot, or the system won't be able to retrieve any relevant documents.
+
 bash
 Copy code
 python app.py
