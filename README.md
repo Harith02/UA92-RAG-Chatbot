@@ -34,8 +34,8 @@ Make sure you have Python 3.8+ installed.
 
 bash
 Copy code
-git clone https://github.com/yourusername/ua92-chatbot.git
-cd ua92-chatbot
+git clone https://github.com/yourusername/UA92-RAG-Chatbot.git
+cd UA92-RAG-Chatbot
 pip install -r requirements.txt
 Set up your .env file with your OpenAI API key and other credentials:
 
