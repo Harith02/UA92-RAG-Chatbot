@@ -1,12 +1,12 @@
 # 🎓 UA92 Admissions Chatbot
-A Retrieval-Augmented Generation (RAG) chatbot designed to assist users with University Academy 92 (UA92) admissions-related queries. This project leverages LangChain, GPT-4, and ChromaDB to provide accurate, real-time responses based on scraped university website data.
+A Retrieval-Augmented Generation (RAG) chatbot designed to assist users with University Academy 92 (UA92) admissions-related queries. This project leverages LangChain, GPT-4o-Mini, and ChromaDB to provide accurate, real-time responses based on scraped university website data.
 
 🚀 Features
-🔍 Retrieval-Augmented Generation using GPT-4 and ChromaDB
+🔍 Retrieval-Augmented Generation using GPT-4o-Mini and ChromaDB
 
 🗂️ Contextual and semantically accurate responses
 
-🌐 Multilingual support (tested with German, Malay, Chinese, and more)
+🌐 Multilingual support
 
 🎤 Voice input (English only)
 
