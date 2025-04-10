@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: black;
+  background-image: url('/static/images/backgroundhue.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Split the screen */
+.split {
+  display: flex;
+  margin-top: 2%;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo styling */
+.logo {
+  color: white;
+  display: flex;
+  width: 45%;
+}
+
+.logotext {
+  font-size: 200%;
+  margin-left: 2vh;
+  text-align: center;
+  color: white;
+}
+
+.logotext h1{
+  margin: 0;
+  font-weight:lighter;
+}
+
+/* Chatbox container */
+.chatbox {
+  margin-bottom:5%;
+  background-color: #2a2929;
+  padding: 5%;
+  border-radius: 15px;
+}
+
+/* Fixed chat container */
+.chat-container {
+  height: 61vh; /* Set a fixed height */
+  width: 700px;
+  overflow-y: auto; /* Enables scrolling */
+  padding: 10px;
+  background: #2a2929;
+}
+
+/* Chat bubbles */
+.chat {
+  max-width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  position: relative;
+  color: white;
+  font-size: 1.8vh;
+}
+
+/* User message (query) */
+.chat.user {
+  background: #9e2323;
+  align-self: flex-end;
+  text-align: left;
+  margin-left: auto;
+  border-radius: 15px 15px 0 15px;
+}
+
+
+/* Bot response */
+.chat.bot {
+  background: #444;
+  align-self: flex-start;
+  text-align: left;
+  border-radius: 15px 15px 15px 0;
+}
+
+.chat.bot a{
+  color: #d23131;
+}
+
+/* Textarea for input */
+textarea { 
+  width: 70%;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+#speech-btn{
+  color: #fff;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 3vh;
+  border: none;
+}
+
+#sbmt-btn{
+  color: #fff;
+  cursor: pointer;
+  background-color: #9e2323;
+  font-size: 3vh;
+  border-radius: 100%;
+  border: #9e2323;
+}
+
+.submit-box {
+  display: flex;
+  align-items: center; 
+  gap: 5px; 
+  margin-top: 10px;
+}
+
+textarea.submit {
+  flex: 1; 
+  height: 3vh; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 200px;
+  text-align: left;
+  width: 60%;
+}
+
+#query-textarea{
+  font-size: 1.7vh;
+}
+
+textarea::placeholder {
+  font-size: 2vh;
+}
+
+input.submit {
+  border: none;
+  height: 5vh;
+  width: 5vh;
+  color: #fff;
+  cursor: pointer;
+  background-color: #9e2323;
+  border-radius: 100%;
+  white-space: nowrap; 
+  font-size: 3vh;
+}
+
+
+

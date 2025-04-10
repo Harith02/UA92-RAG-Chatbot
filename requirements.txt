@@ -1,0 +1,11 @@
+requests
+beautifulsoup4
+langchain
+langchain_community
+langchain_openai
+openai
+chromadb
+flask
+gunicorn
+SpeechRecognition
+markdown
