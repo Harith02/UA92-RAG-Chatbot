@@ -69,7 +69,7 @@ Achieved:
 
 ✅ Consistent context retention
 
-✅ User feedback score: 8.71/10
+✅ User feedback score: 8.81/10
 
 🧠 Known Limitations
 ❗ Some responses may "hallucinate" when handling rare or ambiguous queries.
